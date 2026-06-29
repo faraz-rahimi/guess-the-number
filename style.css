@@ -2,6 +2,92 @@ body{
     background: #4ab4ff;
     background: linear-gradient(90deg, rgba(74, 180, 255, 1) 16%, rgba(87, 199, 133, 1) 42%, rgba(167, 255, 243, 1) 100%);;
     font-family: sans-serif;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    gap: 7px;
+}
+#top-date, #attemptsShow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+main{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#paragraph{
+    font-size: 20px;
+}
+#input{
+    border: 2px solid;
+    border-color: rgba(87, 199, 133, 1);
+    border-radius: 9999px;
+    width: 300px;
+    height: 30px;
+    box-shadow: 1px 2px 4px #000;
+    outline: none;
+}
+#btn{
+    display: flex;
+    gap: 10px;
+}
+#btn1{
+    display: flex;
+    margin-top: 100px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(167, 255, 243, 1);
+    transition-duration: 200ms;
+    border-color: rgba(167, 255, 243, 1);
+
+}
+#btn3{
+    display: flex;
+    margin-top: 100px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(87, 199, 133, 1);
+    transition-duration: 200ms;
+    border-color: rgba(87, 199, 133, 1);
+}
+#btn2{
+    display: flex;
+    margin-top: 100px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(74, 180, 255, 1);
+    transition-duration: 200ms;
+    border-color: rgba(74, 180, 255, 1);
+}
+#btn1:hover{
+    background-color: rgb(183, 255, 245);
+}
+#btn3:hover{
+    background-color: rgb(102, 212, 148);
+}
+#btn2:hover{
+    background-color: rgb(95, 188, 255);
+}
+@media screen and (min-height: 750px){
+body{
+    background: #4ab4ff;
+    background: linear-gradient(90deg, rgba(74, 180, 255, 1) 16%, rgba(87, 199, 133, 1) 42%, rgba(167, 255, 243, 1) 100%);;
+    font-family: sans-serif;
     font-size: 20px;
 }
 *{
@@ -27,7 +113,7 @@ main{
 #input{
     border: 3px solid;
     border-color: rgba(87, 199, 133, 1);
-    border-radius: 15px;
+    border-radius: 9999px;
     width: 500px;
     height: 30px;
     box-shadow: 1px 2px 4px #000;
@@ -82,57 +168,6 @@ main{
 }
 #btn2:hover{
     background-color: rgb(95, 188, 255);
-}
-@media screen and (min-height: 360px){
-    header{
-    display: flex;
-    gap: 7px;
-}
-#top-date, #attemptsShow{
-    font-size: 15px;
-}
-main{
-    display: grid;
-    justify-items: center;
-    align-items: center;
-}
-#paragraph{
-    font-size: 20px;
-}
-#input{
-    border: 2px solid;
-    border-radius: 9999px;
-    border-color: rgba(87, 199, 133, 1);
-    width: 300px;
-    height: 30px;
-    box-shadow: 1px 2px 4px #000;
-    outline: none;
-}
-#btn{
-    display: flex;
-    gap: 10px;
-}
-#btn1{
-    display: flex;
-    margin-top: 60px;
-    width: 90px;
-    height: 30px;
-    border-radius: 7px;
-
-}
-#btn3{
-    display: flex;
-    margin-top: 60px;
-    width: 90px;
-    height: 30px;
-    border-radius: 7px;
-}
-#btn2{
-    display: flex;
-    margin-top: 60px;
-    width: 90px;
-    height: 30px;
-    border-radius: 7px;
 }
 }
 @media screen and (min-height: 500px){
