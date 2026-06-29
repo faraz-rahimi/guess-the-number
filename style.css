@@ -83,3 +83,107 @@ main{
 #btn2:hover{
     background-color: rgb(95, 188, 255);
 }
+@media screen and (min-height: 360px){
+    header{
+    display: flex;
+    gap: 7px;
+}
+#top-date, #attemptsShow{
+    font-size: 15px;
+}
+main{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#paragraph{
+    font-size: 20px;
+}
+#input{
+    border: 2px solid;
+    border-radius: 9999px;
+    border-color: rgba(87, 199, 133, 1);
+    width: 300px;
+    height: 30px;
+    box-shadow: 1px 2px 4px #000;
+    outline: none;
+}
+#btn{
+    display: flex;
+    gap: 10px;
+}
+#btn1{
+    display: flex;
+    margin-top: 60px;
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+
+}
+#btn3{
+    display: flex;
+    margin-top: 60px;
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+}
+#btn2{
+    display: flex;
+    margin-top: 60px;
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+}
+}
+@media screen and (min-height: 500px){
+    header{
+    display: flex;
+    gap: 9px;
+}
+#top-date, #attemptsShow{
+    font-size: 17px;
+}
+main{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#paragraph{
+    font-size: 26px;
+}
+#input{
+    border: 3px solid;
+    border-radius: 9999px;
+    border-color: rgba(87, 199, 133, 1);
+    width: 400px;
+    height: 40px;
+    box-shadow: 1px 2px 4px #000;
+    outline: none;
+}
+#btn{
+    display: flex;
+    gap: 10px;
+}
+#btn1{
+    display: flex;
+    margin-top: 90px;
+    width: 110px;
+    height: 40px;
+    border-radius: 9px;
+
+}
+#btn3{
+    display: flex;
+    margin-top: 90px;
+    width: 110px;
+    height: 40px;
+    border-radius: 9px;
+}
+#btn2{
+    display: flex;
+    margin-top: 90px;
+    width: 110px;
+    height: 40px;
+    border-radius: 9px;
+}
+}
